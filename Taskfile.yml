@@ -16,7 +16,6 @@ tasks:
             echo "powershell"
           fi
     cmds:
-      - scoop config aria2-warning-enabled false
       - task: import
       - "{{.PWSH_CMD}} ./scripts/autohotkey.ps1"
 
