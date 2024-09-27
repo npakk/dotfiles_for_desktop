@@ -11,9 +11,9 @@ tasks:
       PWSH_CMD:
         sh: |
           if type "pwsh" > /dev/null 2>&1; then
-          echo "pwsh"
+            echo "pwsh"
           else
-          echo "powershell"
+            echo "powershell"
           fi
     cmds:
       - scoop config aria2-warning-enabled false
