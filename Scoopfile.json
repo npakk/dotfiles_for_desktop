@@ -21,16 +21,6 @@
             "Manifests": 2073
         },
         {
-            "Name": "versions",
-            "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": {
-                "value": "\/Date(1727426359000)\/",
-                "DisplayHint": 2,
-                "DateTime": "Friday, September 27, 2024 5:39:19 PM"
-            },
-            "Manifests": 469
-        },
-        {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
@@ -86,13 +76,6 @@
             "Name": "dark",
             "Version": "3.14",
             "Updated": "\/Date(1727434515237)\/"
-        },
-        {
-            "Info": "Install failed",
-            "Source": null,
-            "Name": "dotfiles",
-            "Version": null,
-            "Updated": "\/Date(1727441024743)\/"
         },
         {
             "Info": "",
@@ -163,13 +146,6 @@
             "Name": "Source-Han-Sans-J",
             "Version": "2.004",
             "Updated": "\/Date(1727436760877)\/"
-        },
-        {
-            "Info": "",
-            "Source": "versions",
-            "Name": "steam",
-            "Version": "nightly-20240927",
-            "Updated": "\/Date(1727435742268)\/"
         },
         {
             "Info": "",
