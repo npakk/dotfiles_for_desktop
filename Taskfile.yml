@@ -13,6 +13,17 @@ tasks:
     # - . ./scripts/autohotkey.ps1
     - powershell .\\scripts\\autohotkey.ps1
 
+  test:
+    vars:
+      SMILE: ":)"
+      FROWN: "X("
+      PWSH_PATH:
+        sh: $PSVersionTable.PSVersion.Major -ge 6
+    cmds:
+      # - echo {{if .PWSH_PATH}}{{.SMILE}}{{else}}{{.FROWN}}{{end}}
+      # - echo {{.PWSH_PATH}}
+      - echo {{.PWSH_PATH}}
+
   update:
     - scoop update
     - scoop update *
