@@ -1,6 +1,8 @@
 $startupPath = [Environment]::GetFolderPath("Startup")
 $wsShell = New-Object -ComObject WScript.Shell
-$shortcut = $wsShell.CreateShortcut($startupPath + "\MyAutoHotKeyV2.lnk")
-$shortcut.TargetPath = (Convert-Path .) + "\.config\autohotkey\MyAutoHotKeyV2.ahk"
+$shortcutPath = $startupPath + "\myautohotkeyv2.lnk"
+$shortcut = $wsShell.CreateShortcut($shortcutPath)
+$shortcut.TargetPath = (Convert-Path .) + "\.config\autohotkey\myautohotkeyv2.ahk"
 $shortcut.Save()
+Invoke-Item $shortcutPath
 exit

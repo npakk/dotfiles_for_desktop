@@ -11,18 +11,25 @@ tasks:
     # - . ./scripts/autohotkey.ps1
     # - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
     # - . ./scripts/autohotkey.ps1
-    - powershell .\\scripts\\autohotkey.ps1
+    - powershell ./scripts/autohotkey.ps1
 
   test:
     vars:
       SMILE: ":)"
       FROWN: "X("
       PWSH_PATH:
-        sh: $PSVersionTable.PSVersion.Major -ge 6
+        # sh: if type pwsh > /dev/null 2>&1; then echo "True"; else echo "False"; fi
+        sh: |
+          if type "pwsh" > /dev/null 2>&1; then
+          echo "pwsh"
+          else
+          echo "powershell"
+          fi
     cmds:
-      # - echo {{if .PWSH_PATH}}{{.SMILE}}{{else}}{{.FROWN}}{{end}}
-      # - echo {{.PWSH_PATH}}
-      - echo {{.PWSH_PATH}}
+      # - "{{if eq .PWSH_PATH 'True'}}{{.SMILE}}{{else}}{{.FROWN}}{{end}}"
+      - echo "{{.PWSH_PATH}} ./scripts/autohotkey.ps1"
+      - "{{.PWSH_PATH}} ./scripts/autohotkey.ps1"
+      # - echo "{{.PWSH_PATH}}"
 
   update:
     - scoop update
