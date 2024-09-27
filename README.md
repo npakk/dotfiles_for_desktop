@@ -1,5 +1,5 @@
 # dotfiles
-## windows
+## Win
 [Scoop](https://scoop.sh/)
 ```ps1
 # Scoopインストール
@@ -17,3 +17,4 @@ task
 - 1Password
 - ATOK
 - Docker
+## Mac
