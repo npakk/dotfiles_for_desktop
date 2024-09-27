@@ -7,18 +7,8 @@ tasks:
     - task: install
 
   install:
-    - task: import
-    # - . ./scripts/autohotkey.ps1
-    # - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-    # - . ./scripts/autohotkey.ps1
-    - powershell ./scripts/autohotkey.ps1
-
-  test:
     vars:
-      SMILE: ":)"
-      FROWN: "X("
-      PWSH_PATH:
-        # sh: if type pwsh > /dev/null 2>&1; then echo "True"; else echo "False"; fi
+      PWSH_CMD:
         sh: |
           if type "pwsh" > /dev/null 2>&1; then
           echo "pwsh"
@@ -26,10 +16,9 @@ tasks:
           echo "powershell"
           fi
     cmds:
-      # - "{{if eq .PWSH_PATH 'True'}}{{.SMILE}}{{else}}{{.FROWN}}{{end}}"
-      - echo "{{.PWSH_PATH}} ./scripts/autohotkey.ps1"
-      - "{{.PWSH_PATH}} ./scripts/autohotkey.ps1"
-      # - echo "{{.PWSH_PATH}}"
+      - scoop config aria2-warning-enabled false
+      - task: import
+      - "{{.PWSH_CMD}} ./scripts/autohotkey.ps1"
 
   update:
     - scoop update
