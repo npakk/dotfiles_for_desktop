@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles_for_desktop
 ## Win
 [Scoop](https://scoop.sh/)
 ```ps1
