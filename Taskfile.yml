@@ -8,6 +8,10 @@ tasks:
 
   install:
     - task: import
+    # - . ./scripts/autohotkey.ps1
+    # - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+    # - . ./scripts/autohotkey.ps1
+    - powershell .\\scripts\\autohotkey.ps1
 
   update:
     - scoop update
