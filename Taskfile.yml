@@ -1,0 +1,21 @@
+version: '3'
+
+silent: true
+
+tasks:
+  default:
+    - task: install
+
+  install:
+    - task: import
+
+  update:
+    - scoop update
+    - scoop update *
+
+  import:
+    - scoop import Scoopfile.json
+    - scoop uninstall vcredist2022
+
+  export:
+    - scoop export > Scoopfile.json
