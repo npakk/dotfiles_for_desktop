@@ -20,8 +20,10 @@ task
 - 1Password
 - ATOK
 - Docker
-Alacrittyのキー操作が一般的なターミナルと異なる場合は以下を実行
+
+alacrittyのキー操作が一般的なターミナルと異なる場合は以下を実行
 ```ps1
+#alacritty
 Import-Module PSReadline
 Set-PSReadLineOption -EditMode Emacs
 ```
