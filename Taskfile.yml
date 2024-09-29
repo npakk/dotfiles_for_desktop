@@ -18,7 +18,6 @@ tasks:
     cmds:
       - task: import
       - "{{.PWSH_CMD}} ./scripts/autohotkey.ps1"
-      - "{{.PWSH_CMD}} ./scripts/createconfiglink.ps1"
 
   update:
     - scoop update

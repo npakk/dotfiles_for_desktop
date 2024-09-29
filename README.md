@@ -6,6 +6,9 @@
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
+# aria2のワーニングを表示させない
+scoop config aria2-warning-enabled false
+
 # 最低限必要なソフトウェアのインストール
 scoop install aria2 git task
 
