@@ -160,6 +160,13 @@
         {
             "Info": "",
             "Source": "extras",
+            "Name": "vcredist2022",
+            "Version": "14.40.33810.0",
+            "Updated": "\/Date(1727612485008)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
             "Name": "vivaldi",
             "Version": "6.9.3447.48",
             "Updated": "\/Date(1727612102031)\/"
