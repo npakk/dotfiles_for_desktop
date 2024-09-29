@@ -3,7 +3,7 @@
         {
             "Name": "main",
             "Source": "~\\scoop\\buckets\\main",
-            "Updated": "\/Date(1727617278212)\/",
+            "Updated": "\/Date(1727620195921)\/",
             "Manifests": 1343
         },
         {
@@ -43,133 +43,133 @@
             "Source": "main",
             "Name": "7zip",
             "Version": "24.08",
-            "Updated": "\/Date(1727617285165)\/"
+            "Updated": "\/Date(1727620203015)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "alacritty",
+            "Version": "0.13.2",
+            "Updated": "\/Date(1727621743927)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "aria2",
             "Version": "1.37.0-1",
-            "Updated": "\/Date(1727617281478)\/"
+            "Updated": "\/Date(1727620199437)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "autohotkey",
             "Version": "2.0.18",
-            "Updated": "\/Date(1727617311431)\/"
+            "Updated": "\/Date(1727620225828)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "dark",
             "Version": "3.14",
-            "Updated": "\/Date(1727617311993)\/"
+            "Updated": "\/Date(1727620226390)\/"
         },
         {
             "Info": "",
             "Source": "nonportable",
             "Name": "dropbox-np",
             "Version": "nightly-20240929",
-            "Updated": "\/Date(1727617369462)\/"
+            "Updated": "\/Date(1727620282239)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "git",
             "Version": "2.46.2",
-            "Updated": "\/Date(1727617289649)\/"
+            "Updated": "\/Date(1727620207890)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "googlechrome",
             "Version": "129.0.6668.71",
-            "Updated": "\/Date(1727617375775)\/"
+            "Updated": "\/Date(1727620290652)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "innounp",
             "Version": "0.50",
-            "Updated": "\/Date(1727617376747)\/"
+            "Updated": "\/Date(1727620291539)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "neovim",
             "Version": "0.10.1",
-            "Updated": "\/Date(1727617380424)\/"
+            "Updated": "\/Date(1727620294871)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "obsidian",
             "Version": "1.6.7",
-            "Updated": "\/Date(1727617385625)\/"
+            "Updated": "\/Date(1727620300552)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "powertoys",
             "Version": "0.84.1",
-            "Updated": "\/Date(1727617404759)\/"
+            "Updated": "\/Date(1727620316208)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "skype",
             "Version": "8.128.0.207",
-            "Updated": "\/Date(1727617414525)\/"
+            "Updated": "\/Date(1727620326317)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "slack",
             "Version": "4.40.128",
-            "Updated": "\/Date(1727617418103)\/"
+            "Updated": "\/Date(1727620330505)\/"
         },
         {
             "Info": "",
             "Source": "nerd-fonts",
             "Name": "Source-Han-Sans-J",
             "Version": "2.004",
-            "Updated": "\/Date(1727617422072)\/"
+            "Updated": "\/Date(1727620334333)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "task",
             "Version": "3.39.2",
-            "Updated": "\/Date(1727617290821)\/"
+            "Updated": "\/Date(1727620208781)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "thunderbird",
             "Version": "128.2.3esr",
-            "Updated": "\/Date(1727617425743)\/"
+            "Updated": "\/Date(1727620337849)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "vcredist2022",
             "Version": "14.40.33810.0",
-            "Updated": "\/Date(1727617431197)\/"
+            "Updated": "\/Date(1727620342302)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "vivaldi",
             "Version": "6.9.3447.48",
-            "Updated": "\/Date(1727617439869)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "windows-terminal",
-            "Version": "1.21.2701.0",
-            "Updated": "\/Date(1727617441368)\/"
+            "Updated": "\/Date(1727620350458)\/"
         }
     ]
 }
