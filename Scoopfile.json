@@ -17,16 +17,6 @@
             "Manifests": 2077
         },
         {
-            "Name": "nerd-fonts",
-            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": {
-                "value": "\/Date(1726939219000)\/",
-                "DisplayHint": 2,
-                "DateTime": "Sunday, September 22, 2024 2:20:19 AM"
-            },
-            "Manifests": 336
-        },
-        {
             "Name": "nonportable",
             "Source": "https://github.com/ScoopInstaller/Nonportable",
             "Updated": {
@@ -135,13 +125,6 @@
             "Name": "slack",
             "Version": "4.40.128",
             "Updated": "\/Date(1727620330505)\/"
-        },
-        {
-            "Info": "",
-            "Source": "nerd-fonts",
-            "Name": "Source-Han-Sans-J",
-            "Version": "2.004",
-            "Updated": "\/Date(1727620334333)\/"
         },
         {
             "Info": "",

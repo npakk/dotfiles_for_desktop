@@ -1,5 +1,5 @@
 /* 文字列削除 */
-#HotIf !WinActive("ahk_exe WindowsTerminal.exe", )
+#HotIf !WinActive("ahk_exe WindowsTerminal.exe", ) and !WinActive("ahk_exe alacritty.exe", )
 LCtrl & h::Send ("{BackSpace}")
 LCtrl & d::Send ("{Delete}")
 LCtrl & u::{

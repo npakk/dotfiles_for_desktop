@@ -18,6 +18,7 @@ tasks:
     cmds:
       - task: import
       - "{{.PWSH_CMD}} ./scripts/autohotkey.ps1"
+      - "{{.PWSH_CMD}} ./scripts/alacritty.ps1"
 
   update:
     - scoop update
