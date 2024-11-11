@@ -61,14 +61,5 @@ save_to_clipboard = false
 [cursor.style]
 blinking = "Off"
 
-[terminal]
-shell = "powershell"
-# program = "/usr/local/bin/zsh"
-# args = [
-#   "-l",
-#   "-c",
-#   "/usr/local/bin/tmux a -t default || /usr/local/bin/tmux new -s default\\; source ~/.config/tmux/default.session.conf"
-# ]
-
 [mouse]
 hide_when_typing = false
