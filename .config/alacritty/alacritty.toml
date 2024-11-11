@@ -8,24 +8,24 @@ opacity = 1
 startup_mode = "Windowed"
 option_as_alt = "Both"
 
-# [font]
-# size = 18
-#
-# [font.normal]
-# family = "HackGen Console NF"
-# style = "Regular"
-#
-# [font.bold]
-# family = "HackGen Console NF"
-# style = "Bold"
-#
-# [font.italic]
-# family = "HackGen Console NF"
-# style = "Italic"
-#
-# [font.bold_italic]
-# family = "HackGen Console NF"
-# style = "Bold Italic"
+[font]
+size = 18
+
+[font.normal]
+family = "HackGen Console NF"
+style = "Regular"
+
+[font.bold]
+family = "HackGen Console NF"
+style = "Bold"
+
+[font.italic]
+family = "HackGen Console NF"
+style = "Italic"
+
+[font.bold_italic]
+family = "HackGen Console NF"
+style = "Bold Italic"
 
 [colors.primary]
 background = "0x16171E"
