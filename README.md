@@ -26,6 +26,7 @@ task
 ```sh
 # Homebrewインストール
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+export PATH="$PATH;/opt/homebrew/bin"
 
 git clone https://github.com/npakk/dotfiles_for_desktop.git
 cd dotfiles_for_desktop
