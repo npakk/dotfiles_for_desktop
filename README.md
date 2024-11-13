@@ -22,3 +22,12 @@ task
 - Docker
 
 ## Mac
+[Homebrew](https://brew.sh)
+```sh
+# Homebrewインストール
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+git clone https://github.com/npakk/dotfiles_for_desktop.git
+cd dotfiles_for_desktop
+make
+```
