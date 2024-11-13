@@ -1,0 +1,145 @@
+{
+  "title": "CTRL+c to COPY for mac - Customize",
+  "rules": [
+    {
+      "description": "Copy to CTRL+c",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": "control"
+            }
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": "command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.alacritty"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Cut to CTRL+x",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "x",
+            "modifiers": {
+              "mandatory": "control"
+            }
+          },
+          "to": [
+            {
+              "key_code": "x",
+              "modifiers": "command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.alacritty"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Paste to CTRL+v",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": "control"
+            }
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": "command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.alacritty"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "SelectAll to CTRL+a",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": "control"
+            }
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": "command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.alacritty"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Search to CTRL+f",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": "control"
+            }
+          },
+          "to": [
+            {
+              "key_code": "f",
+              "modifiers": "command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.alacritty"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

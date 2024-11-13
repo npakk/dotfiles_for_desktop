@@ -114,31 +114,10 @@
         },
         {
             "Info": "",
-            "Source": "extras",
-            "Name": "skype",
-            "Version": "8.128.0.207",
-            "Updated": "\/Date(1727620326317)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "slack",
-            "Version": "4.40.128",
-            "Updated": "\/Date(1727620330505)\/"
-        },
-        {
-            "Info": "",
             "Source": "main",
             "Name": "task",
             "Version": "3.39.2",
             "Updated": "\/Date(1727620208781)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "thunderbird",
-            "Version": "128.2.3esr",
-            "Updated": "\/Date(1727620337849)\/"
         },
         {
             "Info": "",
