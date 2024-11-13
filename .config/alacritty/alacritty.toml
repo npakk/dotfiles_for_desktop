@@ -61,12 +61,5 @@ save_to_clipboard = false
 [cursor.style]
 blinking = "Off"
 
-[terminal.shell]
-program = "powershell"
-args = [
-  "-c",
-  "wsl ~"
-]
-
 [mouse]
 hide_when_typing = false
