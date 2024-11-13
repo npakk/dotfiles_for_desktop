@@ -16,10 +16,6 @@ git clone https://github.com/npakk/dotfiles_for_desktop.git
 cd dotfiles_for_desktop
 task
 ```
-以下のソフトウェアは手動でインストール
-- 1Password
-- ATOK
-- Docker
 
 ## Mac
 [Homebrew](https://brew.sh)
@@ -34,3 +30,8 @@ git clone https://github.com/npakk/dotfiles_for_desktop.git
 cd dotfiles_for_desktop
 make
 ```
+---
+以下のソフトウェアは手動でインストール
+- 1Password
+- ATOK
+- Docker
