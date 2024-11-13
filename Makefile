@@ -1,7 +1,8 @@
 .PHONY: all
 all: install
 
-install: import
+install: import ./scripts/alacritty.sh ./scripts/karabiner.sh
+	@chmod +x ./scripts/alacritty.sh ./scripts/karabiner.sh 
 	@./scripts/alacritty.sh
 	@./scripts/karabiner.sh
 
