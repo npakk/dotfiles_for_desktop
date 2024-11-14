@@ -56,7 +56,7 @@ cyan = "0x5FFDFF"
 white = "0xFEFFFF"
 
 [selection]
-save_to_clipboard = false
+save_to_clipboard = true
 
 [cursor.style]
 blinking = "Off"
