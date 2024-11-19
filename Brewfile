@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-brew "git"
 cask "alacritty"
 cask "alfred"
 cask "alt-tab"
