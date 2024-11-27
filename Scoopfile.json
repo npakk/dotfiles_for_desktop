@@ -93,6 +93,13 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.10.1",
+            "Updated": "\/Date(1727611912727)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
             "Name": "obsidian",
             "Version": "1.6.7",

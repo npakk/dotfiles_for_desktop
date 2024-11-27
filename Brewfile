@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+brew "neovim"
 cask "alacritty"
 cask "alfred"
 cask "alt-tab"
