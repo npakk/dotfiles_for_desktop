@@ -36,7 +36,7 @@ make
 - ATOK
 - Docker
 
-Dockerのデタッチキーと衝突して Ctrl+p の入力が吸われるときは、~/.docker/config.jsonに以下を追加
+Dockerのデタッチキーと衝突して Ctrl+p の入力が吸われるときは、~/.docker/config.json (Winの場合、%USERPROFILE%\.docker\config.json) に以下を追加
 ```json
 {
     "detachKeys": "ctrl-_"
