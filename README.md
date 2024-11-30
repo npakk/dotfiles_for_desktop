@@ -35,3 +35,10 @@ make
 - 1Password
 - ATOK
 - Docker
+
+Dockerのデタッチキーと衝突して Ctrl+p の入力が吸われるときは、~/.docker/config.jsonに以下を追加
+```json
+{
+    "detachKeys": "ctrl-_"
+}
+```
