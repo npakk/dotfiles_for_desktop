@@ -121,7 +121,7 @@ RShift::Send ("{vk1C}") ; 変換
 ^[::Send ("{Escape}{vk1D}") ; Esc,無変換
 
 /* Ctrl-oで無変換送信 */
-^o::Send ("{vk1D}") ;　無変換
+/* ^o::Send ("{vk1D}") ;　無変換 */
 
 /* 後変換 */
 ^sc027::{
