@@ -73,13 +73,6 @@
         {
             "Info": "",
             "Source": "main",
-            "Name": "ghq",
-            "Version": "1.7.1",
-            "Updated": "\/Date(1734352871948)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
             "Name": "git",
             "Version": "2.46.2",
             "Updated": "\/Date(1727620207890)\/"
