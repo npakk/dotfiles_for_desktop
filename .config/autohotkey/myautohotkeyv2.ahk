@@ -15,12 +15,10 @@ LCtrl & k::{
 
 /* Macライクなアンドゥリドゥ */
 RCtrl & z::{
-	If GetKeyState("Shift", "P") {
+	If GetKeyState("Shift", "P")
 		Send ("^y")
-	}else{
-		Send ("^z")
-	}
-	Return
+	else
+		Send ("{Blind}^z")
 }
 
 /* カーソル移動 */
@@ -124,10 +122,5 @@ RShift::Send ("{vk1C}") ; 変換
 /* ^o::Send ("{vk1D}") ;　無変換 */
 
 /* 後変換 */
-^sc027::{
-	if GetKeyState("RCtrl", "P")
-		Send ("{Blind}{sc027}")
-	else
-		Send ("^+2")
-}
+LCtrl & sc027::^+2
 ^sc028::^+6
