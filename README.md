@@ -17,6 +17,12 @@ cd dotfiles_for_desktop
 task
 ```
 
+[Doom](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org)を入れたいなら以下
+```ps1
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+```
+
 ## Mac
 [Homebrew](https://brew.sh)
 ```sh
