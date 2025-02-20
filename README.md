@@ -1,6 +1,7 @@
 # dotfiles_for_desktop
 ## Win
-**事前に環境変数$HOMEにホームディレクトリ`C:\Users\ユーザ名`を設定しておく**
+**事前に環境変数$HOMEにホームディレクトリ`C:\Users\ユーザ名`、
+$DOOMDIRにも`C:\Users\ユーザ名`を設定しておく**
 
 [Scoop](https://scoop.sh/)
 ```ps1
