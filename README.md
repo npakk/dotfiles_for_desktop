@@ -24,6 +24,7 @@ cd $env:APPDATA/.emacs.d/bin
 ./doom install
 ./doom sync
 ```
+アイコンが文字化けしている場合は、`M-x nerd-icons-install-fonts`を実行してttfファイルを任意のディレクトリにダウンロードして、手動インストール
 
 ## Mac
 [Homebrew](https://brew.sh)
