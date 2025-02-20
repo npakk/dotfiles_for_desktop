@@ -19,9 +19,10 @@ task
 
 [Doom](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org)を入れたいなら以下
 ```ps1
-git clone https://github.com/hlissner/doom-emacs $HOME/.emacs.d
-cd $HOME/.emacs.d/bin
+git clone https://github.com/hlissner/doom-emacs $env:APPDATA/.emacs.d
+cd $env:APPDATA/.emacs.d/bin
 ./doom install
+./doom sync
 ```
 
 ## Mac
