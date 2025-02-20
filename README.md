@@ -1,7 +1,6 @@
 # dotfiles_for_desktop
 ## Win
-**事前に環境変数$HOMEにホームディレクトリ`C:\Users\ユーザ名`、
-$DOOMDIRにも`C:\Users\ユーザ名`を設定しておく**
+**事前に環境変数$HOMEにホームディレクトリ`C:\Users\ユーザ名`、$DOOMDIRにも`C:\Users\ユーザ名`を設定しておく**
 
 [Scoop](https://scoop.sh/)
 ```ps1
@@ -20,7 +19,7 @@ cd dotfiles_for_desktop
 task
 ```
 
-[Doom](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org)を入れたいなら以下
+[Doom](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org)
 ```ps1
 git clone https://github.com/hlissner/doom-emacs $env:APPDATA/.emacs.d
 cd $env:APPDATA/.emacs.d/bin
