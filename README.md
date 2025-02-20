@@ -22,7 +22,6 @@ task
 git clone https://github.com/hlissner/doom-emacs $env:APPDATA/.emacs.d
 cd $env:APPDATA/.emacs.d/bin
 ./doom install
-./doom sync
 ```
 アイコンが文字化けしている場合は、`M-x nerd-icons-install-fonts`を実行してttfファイルを任意のディレクトリにダウンロードして、手動インストール
 
